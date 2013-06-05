@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PolicySet name="CodingStyleForCSharp">
-  <TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/plain">
+  <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/plain">
     <FileWidth>120</FileWidth>
-    <TabWidth>4</TabWidth>
     <RemoveTrailingWhitespace>True</RemoveTrailingWhitespace>
   </TextStylePolicy>
-  <TextStylePolicy inheritsSet="Mono" inheritsScope="text/plain" scope="text/x-csharp">
+  <TextStylePolicy inheritsSet="VisualStudio" inheritsScope="text/plain" scope="text/x-csharp">
     <FileWidth>120</FileWidth>
-    <TabWidth>4</TabWidth>
     <RemoveTrailingWhitespace>True</RemoveTrailingWhitespace>
   </TextStylePolicy>
   <CSharpFormattingPolicy inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp">
